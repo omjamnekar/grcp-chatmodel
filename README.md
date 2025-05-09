@@ -3,10 +3,10 @@
 This project is a simple chatbot backend powered by Google's Gemini API and uses gRPC for client-server communication. It maintains context per session and provides interactive conversational experiences.
 
 #FRAME
-(project architecture)["assets/image.png"]
+![Project Architecture](assets/image.png)
 
 
-## 🛠 Features
+## Features
 
 - gRPC-based communication
 - Google Gemini API integration
@@ -34,7 +34,6 @@ assistant_backend/
 └── .env                        # Gemini API Key
 ```
 
-## 🚀 Getting Started
 
 ### 1. Install Dependencies
 
@@ -62,7 +61,7 @@ python server.py
 python client.py
 ```
 
-## 💡 Example Usage
+##  Example Usage
 
 ```bash
 Type 'exit' to stop chatting.
@@ -70,14 +69,14 @@ You: Hello
 AI: I received: Hello. Previous context: 0 messages.
 ```
 
-## 📌 Notes
+##  Notes
 
 - Ensure your `.proto` files are compiled to `assistant_pb2.py` and `assistant_pb2_grpc.py`
 - Python version 3.10 or higher is recommended
 
-## 🧠 Built With
+##  Built With
 
-- Python 🐍
+- Python 
 - gRPC
 - Google Gemini API
 - dotenv
