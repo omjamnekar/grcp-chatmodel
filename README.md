@@ -2,7 +2,7 @@
 
 This project is a simple chatbot backend powered by Google's Gemini API and uses gRPC for client-server communication. It maintains context per session and provides interactive conversational experiences.
 
-#FRAME
+# Architecture
 ![Project Architecture](assets/image.png)
 
 
