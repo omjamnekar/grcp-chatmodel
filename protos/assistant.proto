@@ -1,0 +1,22 @@
+syntax= "proto3";
+
+package assistant;
+
+
+service AssistantService{
+    rpc SendMessage(UserMessage) returns (ModelResponse);
+}
+
+
+
+message UserMessage {
+    string session_id =1;
+    string user_input =2;
+}
+
+
+
+message ModelResponse {
+    string reply =1;
+    repeated string context = 2;
+}
